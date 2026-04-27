@@ -1,0 +1,19 @@
+{
+  "name": "redis-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Lingaraj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14",
+    "redis": "^5.12.1"
+  }
+}
